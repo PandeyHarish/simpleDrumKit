@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-image: url("images.jpg");
+  height: 100%;
+  object-fit: contain;
+
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.btnContainer {
+  display: flex;
+  padding-top: 20%;
+  padding-left: 5%;
+}
+.btn {
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  background: seashell;
+  border: 4px solid black;
+  position: relative;
+}
+
+.subtext{
+  position: absolute;
+  font-size: 15px;
+  margin-top: 50%;
+  margin-left: 0;
+  padding-right: 30%;
+}
